@@ -1,0 +1,57 @@
+div {
+  /*border: 1px solid black;*/
+}
+
+.main_stage {
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-size: 0;
+}
+
+.first_row {
+  height: 200px;
+}
+
+.second_row {
+  height: 300px;
+}
+
+.inner {
+  display: inline-block;
+  border: 1px solid black;
+  height: 100%;
+}
+
+[class*="inner1"] {
+  width: 50%;
+  border-bottom: none;
+}
+
+[class*="inner2"] {
+  width: 33.33%;
+}
+
+.inner1-1 {
+  background-color: green;
+  border-right: 0px;
+}
+
+.inner1-2 {
+  background-color: blue;
+}
+
+.inner2-1 {
+  background-color: grey;
+  border-right: 0px;
+}
+
+.inner2-2 {
+  background-color: black;
+  border-right: 0px;
+}
+
+.inner2-3 {
+  background-color: orange;
+}
